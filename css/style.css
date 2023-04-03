@@ -118,11 +118,12 @@ li {
   justify-content: space-between;
   align-items: center;
   gap: 64px;
+  overflow: hidden;
 }
 .photo__title {
   color: #fff;
   font-weight: 700;
-  font-size: 27px;
+  font-size: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -135,7 +136,8 @@ li {
   padding-top: 334px;
 }
 .photo__title:hover {
-  scale: 1.2;
+  transition: 1s;
+  transform: scale(1.1);
 }
 .club__wrapper {
   display: flex;
