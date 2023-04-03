@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.header {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.nav {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line {
+  margin-top: 30px;
+  width: 100%;
+  right: 0;
+  left: 0;
+  border-bottom: 1px solid #fff;
+  position: absolute;
+  z-index: 6;
+}
+.main__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.link__title {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+}
+.social__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.bgi-main {
+  position: absolute;
+  z-index: 4;
+  right: 0;
+  left: 0;
+  height: 100vh;
+}
+.title {
+  margin-top: 230px;
+  font-weight: 700;
+  font-size: 48px;
+  color: #fff;
+  max-width: 600px;
+}
+.play {
+  margin-top: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  gap: 30px;
+}
+
+.text__play {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+.services {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  bottom: 0;
+}
+.services__box {
+  width: 315px;
+  height: 151px;
+  background-color: #8d86c9;
+  color: #fff;
+  padding-left: 35px;
+}
+.services__text {
+  margin-top: 35px;
+}
+.services__title {
+  margin-top: 17px;
+}
+.services__link {
+  padding: 0 0 100px 230px;
+}
+.main {
+}
+.photos {
+  margin-top: 175px;
+  margin-bottom: 175px;
+}
+.photos__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+}
+.photo__title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 376px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 334px;
+}
